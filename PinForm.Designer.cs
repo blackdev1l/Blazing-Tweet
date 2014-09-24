@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PinForm));
             this.label1 = new System.Windows.Forms.Label();
             this.pin_box = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -78,8 +79,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pin_box);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PinForm";
-            this.Text = "PinForm";
+            this.Text = "Enter PIN";
             this.ResumeLayout(false);
             this.PerformLayout();
 

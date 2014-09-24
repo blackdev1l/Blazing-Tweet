@@ -64,5 +64,17 @@ namespace Blazing_Tweet.Properties {
                 this["access_token_secret"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool autohide {
+            get {
+                return ((bool)(this["autohide"]));
+            }
+            set {
+                this["autohide"] = value;
+            }
+        }
     }
 }
