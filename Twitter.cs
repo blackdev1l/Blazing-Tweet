@@ -14,8 +14,8 @@ namespace Blazing_Tweet
         {
             TwitterCredentials.SetCredentials(Properties.Settings.Default.access_token,
                                               Properties.Settings.Default.access_token_secret,
-                                              Properties.Settings.Default.api_key,
-                                              Properties.Settings.Default.api_key_secret);
+                                              Properties.Resources.api_key,
+                                              Properties.Resources.api_key_secret);
         }
     }
 }
