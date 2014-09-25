@@ -32,12 +32,10 @@ namespace Blazing_Tweet
          */
         private static void showDialog()
         {
-            var applicationCredentials = CredentialsCreator.GenerateApplicationCredentials(Properties.Settings.Default.api_key, 
-                                                                                           Properties.Settings.Default.api_key_secret);
+            var applicationCredentials = CredentialsCreator.GenerateApplicationCredentials(Properties.Resources.api_key, 
+                                                                                           Properties.Resources.api_key_secret);
             var url = CredentialsCreator.GetAuthorizationURL(applicationCredentials);
-
-            System.Diagnostics.Process.Start(url); //Url opener
-            PinForm form = new PinForm();
+            PinForm form = new PinForm(url);
             Application.Run(form);
             captcha = form.getCap();
             try

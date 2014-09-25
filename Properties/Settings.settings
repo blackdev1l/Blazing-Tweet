@@ -3,10 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="api_key" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">YKeKl41kEtOZAFq0JTHuVAcy4</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="api_key_secret" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">udlvZOu1ZEcJH3QrOI07t6SvZKW7fnL7S5X7FcolvRamYdecm5</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="access_token" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

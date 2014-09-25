@@ -15,11 +15,12 @@ namespace Blazing_Tweet
     {
         //baloon tip checker
         private bool BaloonShowed = false;
-
+        private Tweetinvi.Core.Interfaces.ILoggedUser user;
         public Message()
         {
             InitializeComponent();
             hide_checkbox.Checked = Properties.Settings.Default.autohide;
+            user = User.GetLoggedUser();
         }
 
 

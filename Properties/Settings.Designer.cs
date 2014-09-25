@@ -25,7 +25,7 @@ namespace Blazing_Tweet.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("YKeKl41kEtOZAFq0JTHuVAcy4")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string api_key {
             get {
                 return ((string)(this["api_key"]));
@@ -34,7 +34,7 @@ namespace Blazing_Tweet.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("udlvZOu1ZEcJH3QrOI07t6SvZKW7fnL7S5X7FcolvRamYdecm5")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string api_key_secret {
             get {
                 return ((string)(this["api_key_secret"]));
