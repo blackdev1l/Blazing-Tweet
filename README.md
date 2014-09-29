@@ -3,9 +3,9 @@ Blazing-Tweet
 
 Simple Twitter App that send tweets from the try bar with hotkey
 
-##Bin
+##Release
 
-[0.1.2](/BlazingTweet0.1.2.7z?raw=true)
+[latest](https://github.com/blackdev1l/Blazing-Tweet/releases)
 
 ##TODO
 
